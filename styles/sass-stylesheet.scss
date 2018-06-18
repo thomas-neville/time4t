@@ -4,16 +4,60 @@ $font-para: 'Nunito', sans-serif;
 
 // Colors
 $color-eggshell: #F2F8FF;
+$color-background: #353738;
 $color-darkgray: #797C7F;
 $color-lightgray: #C2C7CC;
 $color-darkblue: #53687F;
 $color-lightblue: #A6D1FF;
 
 body {
-	width: 100%;
-	font: $font-para;
+  padding: 0;
+  margin: 0;
+	font-family: $font-para;
+  color: $color-background;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
 }
 
 h1 {
-	font: $font-heading;
+	font-family: $font-heading;
+  color: $color-eggshell;
+}
+
+nav {
+  background-color: $color-darkgray;
+  width: 100%;
+
+  ul {
+    display: flex;
+    flex-flow: column wrap;
+    li {
+      font-size: 2rem;
+      list-style-type: none;
+      color: $color-eggshell;
+    }
+  } 
+
+}
+
+.snap-scroll {
+  background-color: $color-darkblue;
+  width: 98%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+
+  p {
+    color: $color-eggshell;
+  }
+
+  img {
+    width: 10rem;
+    height: 10rem;
+  }
 }

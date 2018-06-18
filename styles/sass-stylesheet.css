@@ -1,8 +1,60 @@
 body {
-  width: 100%;
-  font: "Nunito", sans-serif; }
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  color: #353738;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 h1 {
-  font: "Muli", sans-serif; }
+  font-family: "Muli", sans-serif;
+  color: #F2F8FF; }
+
+nav {
+  background-color: #797C7F;
+  width: 100%; }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap; }
+    nav ul li {
+      font-size: 2rem;
+      list-style-type: none;
+      color: #F2F8FF; }
+
+.snap-scroll {
+  background-color: #53687F;
+  width: 98%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40rem;
+  border-radius: 1rem;
+  margin: 1rem 0; }
+  .snap-scroll p {
+    color: #F2F8FF; }
+  .snap-scroll img {
+    width: 10rem;
+    height: 10rem; }
 
 /*# sourceMappingURL=sass-stylesheet.css.map */
