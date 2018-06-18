@@ -1,8 +1,19 @@
-// Variables
+// Fonts
 $font-heading: 'Muli', sans-serif;
 $font-para: 'Nunito', sans-serif;
+
+// Colors
+$color-eggshell: #F2F8FF;
+$color-darkgray: #797C7F;
+$color-lightgray: #C2C7CC;
+$color-darkblue: #53687F;
+$color-lightblue: #A6D1FF;
 
 body {
 	width: 100%;
 	font: $font-para;
+}
+
+h1 {
+	font: $font-heading;
 }
