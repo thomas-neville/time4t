@@ -28,11 +28,33 @@ nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-flow: column wrap;
-            flex-flow: column wrap; }
+            flex-flow: column wrap;
+    padding: 0;
+    margin: 0; }
+    @media (min-width: 650px) {
+      nav ul {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; } }
     nav ul li {
       font-size: 2rem;
       list-style-type: none;
-      color: #F2F8FF; }
+      color: #F2F8FF;
+      padding: 1rem;
+      -webkit-transition: background-color .5s;
+      transition: background-color .5s; }
+      nav ul li:hover {
+        background-color: #353738; }
+      nav ul li a {
+        text-decoration: none;
+        color: #A6D1FF;
+        -webkit-transition: color .5s;
+        transition: color .5s; }
+        nav ul li a:hover {
+          color: #F2F8FF; }
 
 .snap-scroll {
   background-color: #53687F;
