@@ -14,39 +14,34 @@
     <!-- Stylesheet link -->
     <link rel="stylesheet" type="text/css" href="styles/sass-stylesheet.css">
 
+    <!-- Vue.js scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="scripts/component.js"></script>
+
   </head>
   <body>
-    <!-- TODO: replace nav with component -->
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Contact Me</a></li>
-        <li><a href="#">My Work</a></li>
-        <li><a href="#">My Ideas</a></li>
-        <!-- TODO: should be a tea pun -->
-        <li><a href="#">Other Stuff</a></li>
-        <li><i class="fas fa-coffee"></i></li>
-      </ul>
-    </nav> 
+    <div id="time4t-app">
+      <comp-navbar v-bind:nav="nav"></comp-navbar>
 
-    <!-- TODO: create components for scroll to view blocks -->       
-  	<div class="snap-scroll">
-      <img src="images/time4t-logo.png" alt="Time4t tea cup logo">
-      <h1>Still steeping...</h1>
+      <!-- TODO: create components for scroll to view blocks -->       
+    	<div class="snap-scroll">
+        <img src="images/time4t-logo.png" alt="Time4t tea cup logo">
+        <h1>Still steeping...</h1>
+      </div>
+
+      <div class="snap-scroll">
+        <img src="images/time4t-logo.png" alt="Time4t tea cup logo">
+        <h1>Still steeping...</h1>
+      </div>
+
+      <div class="snap-scroll">
+        <img src="images/time4t-logo.png" alt="Time4t tea cup logo">
+        <h1>Still steeping...</h1>
+      </div>
+    <!-- Closing Vue app -->
     </div>
-
-    <div class="snap-scroll">
-      <img src="images/time4t-logo.png" alt="Time4t tea cup logo">
-      <h1>Still steeping...</h1>
-    </div>
-
-    <div class="snap-scroll">
-      <img src="images/time4t-logo.png" alt="Time4t tea cup logo">
-      <h1>Still steeping...</h1>
-    </div>
-
 
     <!-- Script link -->
-    <script src="script.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
