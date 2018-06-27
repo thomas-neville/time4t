@@ -1,9 +1,6 @@
 console.log("test");
 
-
-// pass key, value pairs as strings
-// var for navigation bar
-var navbar-items = [
+var navbaritems = [
 	{tab: "Home",
 	page: "index.html"},
 	{tab: "Contact",
@@ -14,19 +11,12 @@ var navbar-items = [
 	page: "ideas.html"}
 ]
 
-// var for blog item
-var blog-items = [
-	{},
-	{},
-	{},
-	{}
-]
+// var for blog item here
 
 var app = new Vue({
 	el: '#time4t-app',
 	data: {
-		nav: navbar-items,
-		blog: blog-items
-		// consortium: colleges
+		nav: navbaritems,
+		// data for blog
 	}
 })
