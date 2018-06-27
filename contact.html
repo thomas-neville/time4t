@@ -14,7 +14,22 @@
     <!-- Stylesheet link -->
     <link rel="stylesheet" type="text/css" href="styles/sass-stylesheet.css">
 
+    <!-- Vue.js scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="scripts/components.js"></script>
+
   </head>
   <body>
+    <div id="time4t-app">
+      <comp-navbar v-bind:nav="nav"></comp-navbar>
+    </div>
+
+    <div class="snap-scroll">
+      <button id="contact-button"><a href="mailto:tjsnev@gmail.com">Email me</a></button>
+      <img src="images/time4t-logo.png" alt="Time4t tea cup logo">
+    </div>
+
+    <!-- Script link -->
+    <script src="scripts/index.js"></script>
   </body>
   
