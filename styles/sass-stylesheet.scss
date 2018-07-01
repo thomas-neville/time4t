@@ -91,15 +91,19 @@ nav {
 }
 
 #contact-button {
-  display: block;
-  width: 10rem;
-  height: 3rem;
-  text-decoration: none;
-  font-size: 1.5rem;
-  background: linear-gradient(to bottom right, $color-lightblue, $color-darkgray);
-  border-radius: 4px;
-  border: outset $color-lightgray 3px;
-  margin: 5rem;
+  background-color: $color-darkblue;
+  padding: 1rem 3rem;
+  border: 2px solid $color-eggshell;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  transition: background-color .3s ease-in-out;
+  &:hover {
+    background-color: $color-eggshell;
+    a {
+      color: $color-darkblue;
+    }
+  }
 
   a {
     text-decoration: none;
