@@ -18,6 +18,19 @@ h1 {
   font-family: "Muli", sans-serif;
   color: #F2F8FF; }
 
+h2 {
+  font-family: "Muli", sans-serif;
+  color: #F2F8FF;
+  width: 98%;
+  padding-left: 1rem; }
+  h2 a {
+    text-decoration: none;
+    color: #F2F8FF;
+    -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out; }
+    h2 a:hover {
+      color: #A6D1FF; }
+
 nav {
   background-color: #797C7F;
   width: 100%;

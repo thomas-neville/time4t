@@ -25,6 +25,21 @@ h1 {
   color: $color-eggshell;
 }
 
+h2 {
+  font-family: $font-heading;
+  color: $color-eggshell;
+  width: 98%;
+  padding-left: 1rem;
+  a {
+    text-decoration: none;
+    color: $color-eggshell;
+    transition: color .3s ease-in-out;
+    &:hover {
+      color: $color-lightblue;
+    }
+  }
+}
+
 nav {
   background-color: $color-darkgray;
   width: 100%;
@@ -48,7 +63,7 @@ nav {
       transition: background-color .5s;
       &:hover {
         background-color: $color-background;
-      };
+      }
       a {
         width: 100%;
         text-decoration: none;
@@ -110,3 +125,4 @@ nav {
     color: $color-eggshell;
   }
 }
+
