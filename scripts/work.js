@@ -4,9 +4,7 @@ var navbaritems = [
 	{tab: "Contact",
 	page: "contact.html"},
 	{tab: "Work",
-	page: "work.html"},
-	{tab: "Ideas",
-	page: "ideas.html"}
+	page: "work.html"}
 ]
 
 // var for blog item here
