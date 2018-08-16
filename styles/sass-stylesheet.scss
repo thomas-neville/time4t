@@ -15,9 +15,6 @@ body {
   margin: 0;
 	font-family: $font-para;
   background-color: $color-background;
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
 }
 
 h1 {
@@ -77,13 +74,6 @@ nav {
   }
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  margin: 0;
-}
-
 .block-scroller {
   overflow-x: hidden;
   position: absolute;
@@ -94,7 +84,6 @@ nav {
   scroll-snap-points-y: repeat(100%);
   scroll-snap-type: mandatory;
   scroll-snap-destination: 100% 0%;
-  margin-top: 5rem;
 }
 
 .vp-block {
@@ -124,7 +113,19 @@ nav {
 }
 
 .first {
-  // drop in background color
+  background-color: $color-darkgray;
+}
+
+.second {
+  background-color: $color-darkblue;
+}
+
+.third {
+  background-color: $color-lightgray;
+}
+
+.fourth {
+  background-color: $color-lightblue;
 }
 
 #contact-button {
