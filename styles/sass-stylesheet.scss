@@ -74,7 +74,7 @@ nav {
         };
       }
     }
-  } 
+  }
 }
 
 .sticky {
@@ -126,3 +126,8 @@ nav {
   }
 }
 
+// Game development
+canvas {
+    border:1px solid $color-darkgray;
+    background-color: $color-darkblue;
+}

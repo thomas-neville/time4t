@@ -117,4 +117,8 @@ nav {
     text-decoration: none;
     color: #F2F8FF; }
 
+canvas {
+  border: 1px solid #797C7F;
+  background-color: #53687F; }
+
 /*# sourceMappingURL=sass-stylesheet.css.map */
