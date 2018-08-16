@@ -94,20 +94,22 @@ nav {
   scroll-snap-points-y: repeat(100%);
   scroll-snap-type: mandatory;
   scroll-snap-destination: 100% 0%;
+  margin-top: 5rem;
 }
 
 .vp-block {
-  display: flex;
+  float: left;
   background-color: $color-darkblue;
   width: 100vw;
   height: 100vh;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
   border-radius: 1rem;
 }
 
 .content {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
   width: 80vw;
   margin: 10vh 0 0 10vw;
   height: 80vh;
