@@ -74,6 +74,8 @@ nav {
   }
 }
 
+
+// Scroll snap properties are depreciated TODO: remove styles and recreate selectors
 .block-scroller {
   overflow-x: hidden;
   position: absolute;
@@ -95,13 +97,13 @@ nav {
 }
 
 .content {
+  width: 80vw;
+  margin: 10vh 0 0 10vw;
+  height: 80vh;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  width: 80vw;
-  margin: 10vh 0 0 10vw;
-  height: 80vh;
   p {
     color: $color-eggshell;
   }

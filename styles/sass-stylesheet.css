@@ -86,6 +86,9 @@ nav {
   border-radius: 1rem; }
 
 .content {
+  width: 80vw;
+  margin: 10vh 0 0 10vw;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,10 +101,7 @@ nav {
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  width: 80vw;
-  margin: 10vh 0 0 10vw;
-  height: 80vh; }
+          justify-content: center; }
   .content p {
     color: #F2F8FF; }
   .content img {
