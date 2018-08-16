@@ -20,14 +20,29 @@
 
   </head>
   <body>
-    <div id="time4t-app">
-      <comp-navbar v-bind:nav="nav"></comp-navbar>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="work.html">Work</a>
+        </li>
+      </ul>
+    </nav>
 
-      <!-- TODO: create components for scroll to view blocks -->
-    	<div class="snap-scroll">
-        <img src="images/time4t-logo.png" alt="Time4t tea cup logo">
-        <h1>Still steeping...</h1>
+    <!-- TODO: create components for scroll to view blocks -->
+    <div class="block-scroller">
+    	<div class="vp-block first">
+        <div class="content">
+          <img src="images/time4t-logo.png" alt="Time4t tea cup logo">
+          <h1>Still steeping...</h1>
+        </div>
       </div>
+    </div>
 
     <!-- Closing Vue app -->
     </div>
