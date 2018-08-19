@@ -93,7 +93,7 @@ p {
   padding-left: 55%; }
 
 .parallax-one {
-  margin: 0;
+  margin: 5rem 0 0 0;
   padding: 0;
   opacity: 0.1;
   height: 250px; }
