@@ -1,6 +1,7 @@
-body {
+html, body {
   padding: 0;
   margin: 0;
+  height: 100%;
   font-family: "Nunito", sans-serif;
   background-color: #353738; }
 
@@ -61,64 +62,79 @@ nav {
         nav ul li a:hover {
           color: #F2F8FF; }
 
-.block-scroller {
-  overflow-x: hidden;
-  position: absolute;
+.text-section {
+  padding: 2rem 1rem 0 0;
+  height: 20rem; }
+
+h4 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4rem;
+  text-align: center; }
+
+h5 {
+  margin: 0;
+  padding: 0;
+  color: gray;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem; }
+
+p {
+  color: gray;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem; }
+
+.left {
+  padding-left: 10%; }
+
+.right {
+  padding-left: 55%; }
+
+.parallax-one {
+  margin: 0;
+  padding: 0;
+  opacity: 0.1;
+  height: 250px; }
+
+#abstract-blue-blur {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1; }
+
+.parallax-two {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/star-exposure.jpg");
+  opacity: 0.6;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax-three {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/star-exposure.jpg");
+  opacity: 0.6;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#navbar {
+  overflow: hidden; }
+
+.sticky {
+  position: fixed;
   top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  -webkit-scroll-snap-points-y: repeat(100%);
-      -ms-scroll-snap-points-y: repeat(100%);
-          scroll-snap-points-y: repeat(100%);
-  -webkit-scroll-snap-type: mandatory;
-      -ms-scroll-snap-type: mandatory;
-          scroll-snap-type: mandatory;
-  -webkit-scroll-snap-destination: 100% 0%;
-      -ms-scroll-snap-destination: 100% 0%;
-          scroll-snap-destination: 100% 0%; }
-
-.vp-block {
-  float: left;
-  background-color: #53687F;
-  width: 100vw;
-  height: 100vh;
-  border-radius: 1rem; }
-
-.content {
-  width: 80vw;
-  margin: 10vh 0 0 10vw;
-  height: 80vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .content p {
-    color: #F2F8FF; }
-  .content img {
-    width: 10rem;
-    height: 10rem; }
-
-.first {
-  background-color: #797C7F; }
-
-.second {
-  background-color: #53687F; }
-
-.third {
-  background-color: #C2C7CC; }
-
-.fourth {
-  background-color: #A6D1FF; }
+  margin: 0; }
 
 #contact-button {
   background-color: #53687F;

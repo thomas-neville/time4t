@@ -17,31 +17,16 @@ var app = new Vue({
 	}
 })
 
-// Game development
-var teaBag;
+window.onscroll = function() {scrollFunction()};
 
-function startGame() {
-    myGameArea.start();
-    teaBag = new component(30, 30, "brown", 10, 120);
-}
+var navbar = document.getElementById("navbar");
 
-var myGameArea = {
-		// TODO query selector for class name of canvas? getElementById does not work
-    canvas : document.getElementById("tea-game"),
-    start : function() {
-        this.canvas.width = 500;
-        this.canvas.height = 500;
-        this.context = this.canvas.getContext("2d");
-        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-    }
-}
+var sticky = navbar.offsetTop;
 
-function component(width, height, color, x, y) {
-    this.width = width;
-    this.height = height;
-    this.x = x;
-    this.y = y;
-    ctx = myGameArea.context;
-    ctx.fillStyle = color;
-    ctx.fillRect(this.x, this.y, this.width, this.height);
+function scrollFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky")
+  };
 }
